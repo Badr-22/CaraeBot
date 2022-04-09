@@ -1,0 +1,134 @@
+version: "3.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - reservation
+  - inform
+  - thanks
+  - deny
+entities:
+- room
+- date
+- name
+- TIME:
+    roles:
+    - start
+    - end
+- PERSON
+
+slots:
+  room:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: room
+  date:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: date
+  name:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: PERSON
+  start_time:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: TIME
+        role: start
+  end_time:
+    type: text
+    mappings:
+      - type: from_entity
+        entity: TIME
+        role: end
+
+forms:
+  reservation_form:
+    required_slots:
+      - name
+      - room
+      - date
+      - start_time
+      - end_time
+
+actions:
+  - action_save
+  - action_reset
+
+
+#    name:
+#      - type: from_entity
+#        entity: PERSON
+#    room:
+#      - type: from_entity
+#        entity: room
+#    date:
+#      - type: from_entity
+#        entity: date
+#    start_time:
+#      - type: from_entity
+#        entity: TIME
+#        role: start
+#    end_time:
+#      - type: from_entity
+#        entity: TIME
+#        role: end
+
+responses:
+  utter_greet:
+  - text: "Hey! How can I help you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+  utter_reservation_made:
+  - text: "Your reservation is made."
+
+  utter_ask_room:
+  - text: "What room do you want to reserve? ."
+
+  utter_ask_date:
+  - text: "On what date do you want to do the reservation?"
+
+  utter_ask_start_time:
+  - text: "When do you want to schedule your reservation (Starting and Ending time) ?"
+
+  utter_ask_end_time:
+  - text: "When do you want to schedule your reservation (Starting and Ending time) ?"
+
+  utter_ask_name:
+  - text: "What's your name?"
+
+  utter_confirm:
+    - text: "You want me to make a reservation for {name} on {date} for the room {room} from {start_time} to {end_time} .Is that correct?"
+
+  utter_welcome:
+    - text: "You're welcome"
+
+  utter_another_attempt:
+    - text: "Do you want to make another attempt?"
+
+  utter_sorry:
+    - text: "Sorry I couldn't help you"
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

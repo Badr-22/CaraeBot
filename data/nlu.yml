@@ -1,0 +1,99 @@
+version: "3.0"
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+    - Hi
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+- intent: reservation
+  examples: |
+    - Can i book a room?
+    - Can i get a room in the library?
+    - Are there any empty rooms in the library?
+    - I want to reserve a room in the library.
+    - I want to make a reservation .
+    - I want to make a booking .
+    - I want to reserve the room [B02-117](room)
+    - I want to book the room [B15-300](room)
+    - I want to reserve the room [B02-115](room)
+    - I want to reserve the room [K30-118](room) for [Paul](PERSON) on [18/05/2023](date) from [08:00](TIME) to [12:50](TIME)
+    - I want book the room [L20-320](room) on [18/05/2023](date) from [08:00](TIME) to [12:50](TIME) by the name [Paul](PERSON)
+- intent: inform
+  examples: |
+    - [K02-117](room)
+    - [H01-17](room)
+    - I want the room [B02-102](room)
+    - [04-03-2022](date)
+    - [01/02/2021](date)
+    - for [05/03/2022](date)
+    - I want it on [02/05/2022](date)
+    - [The 30th of December 2022](date)
+    - From [15:15]{"entity": "TIME", "role": "start"} to [16:15]{"entity": "TIME", "role": "end"}
+    - from [08:20]{"entity": "TIME", "role": "start"} to [18:15]{"entity": "TIME", "role": "end"}
+    - [8 am]{"entity": "TIME", "role": "start"} to [10 am]{"entity": "TIME", "role": "end"}
+    - Starting at [8:30 am] {"entity":"TIME","role":"start"} and finishing at [12:30 pm]{"entity": "TIME", "role": "end"}
+    - I am [Henry](name)
+    - My name is [Tom Brady](name)
+    - My name is [Victor](name)
+    - [Paul](name)
+    - [Frederick](name)
+    - [Leonard](name)
+    - [Federer](name)
+    - [Eric](name)
+    - [Maria](name)
+    - [Natasha](name)
+    - [Ali](name)
+    - You can call me [Adam Smith](name)
+    - [Tom Brady](name)
+    - My name is Badr
+    - [01/01/2001](date)
+    - [02/02/2002](date)
+    - [10:15]{"entity": "TIME", "role": "start"} to [12:15]{"entity": "TIME", "role": "end"}
+- intent: thanks
+  examples: |
+    - Thank you very much.
+    - Thanks.
+    - Thanks for your help. 
+    - I'm very thankful.
+    - Your help was great.
+- intent: deny
+  examples: |
+    - No.
+    - That's not it.
+    - That is not correct.
+    - That is not what I told you to do.
+    - That is not wha I wanted.
+    - Negative.
+
+

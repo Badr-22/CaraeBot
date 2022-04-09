@@ -1,0 +1,16 @@
+{
+  "lookup": {
+    "eJyLrq6NBQAEOAGx": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taS2NhYA6dwbhQ==": "utter_greet",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpbhMiAUAQvc0lw==": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpeSZQMAVRalAflkiSE1tbSwAjlNRBg==": "reservation_form",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpeSZQMAVRalAflkiSA0hk5CUxqflF+USMCwWAGTIbs4=": "utter_confirm",
+    "eJylj8EJwCAMRVfJAJ3AVUoRkViEGkuMXsTda7GH3oT2lgePx89a2wL1ZCzaWPGRFNRxaDIBFTxw+CRI3c0JuTueOoqCnRGlTRpZBFkP9VthsoKxczG3Myu9VO0ih1+x8ZiN5Py0tF2I/4tS": "action_listen",
+    "eJylj0EKgCAQRa/iATqBV4kQkTGEHGMc3Yh3z7JFOyF38+Hx/vy11EWUkyArbdgFlKL0Q6H2IMUbDhcZsLEpAjXGYYssxU4AXAeOxAykOvrPMPiCoOWsb2Zk+qDKBvJTsj7MBLRu0jQYqO3TULcLpKOlhA==": "action_save",
+    "eJylj0EKhDAQBL+SB+wL8hWRMEhHAutEJmMuwb9vduPBi2TR2zQU1dND2V+mrILsaNIQ2ZrSDse0wJojvENScGW3BKlM4BrVmlkA3TuOTRXiGnrP0PlCUHOmL9MznVDnoyyPZG3YFNmHh6bOQPK/hv8kiTKuFeMHTaK+1g==": "utter_reservation_made",
+    "eJylkEEOwyAMBL/CA/oCvhJVyEqWCqmYyjhcUP5eWnrIKVTJzSuNxl5PdbuZ+hIUR7OGxNbUPjimCGt+4Rmyghu7ZkhjAreo1jwE0G3gWFUhrqPnDIMrBC0X+jAj0w51Pkm8JOvF5sQ+XDQNCpL/bvhPkqngrKI32j8p0nJgu78BECLc1w==": "action_reset",
+    "eJylkUEKxCAMRa/iAXoCr1KKhE4chBqHmLqR3n1s7UAXAxa7y4fHMz+OeRtU/jAmA7O4QFrlOhgCj1qdYXFRkAq7RuTCOCpRtHozomwNxyqCbCraZ2hswVhygp1pmS6osYH9I1ktNgey7qGpURDs8cI9SYSEvYra6HokD69u2xl23Z+f/zmmLy2B9p0=": "action_listen",
+    "eJylkkEKAyEMRa/iAXoCr1KKpDOxCNWUmBGKePc6dRazaLF1dn54vPg151xOKj8Yk4FJHAWtcjuYAB612sLdRcFQ2SUiV8aFGkWrGyNK6TgWEWTT0DFD5xaMNSdYmZ5phxpL7A/JWrGJgnUHTZ2CYN8TfpNESDiqaI32j+RhHrZtYdV9+Pm/HF8XkGi+PrGUywtHuBFS": "utter_goodbye",
+    "eJylkkEKwyAQRa/iAXoCrxKCTJOxCFXLOBGK5O411UUWDaZm54fH0z/OkNabSC/CqGBi450UqRyUA4tS1PA0gdFldglImTEuR5biQYi8NhwLM5IqaJ+h8QrCnCNsTMu0Q5X2ZC/JSrHJO20umhoFQX9vOCcJELFXURrth2Rh7rbVsOl+/PxfjsMF9H6+v/HkClb42DJ+AK7cLAg=": "action_listen"
+  }
+}

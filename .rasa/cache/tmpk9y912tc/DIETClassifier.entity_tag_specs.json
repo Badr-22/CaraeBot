@@ -1,0 +1,78 @@
+[
+  {
+    "tag_name": "entity",
+    "ids_to_tags": {
+      "1": "B-PERSON",
+      "2": "I-PERSON",
+      "3": "L-PERSON",
+      "4": "U-PERSON",
+      "5": "B-TIME",
+      "6": "I-TIME",
+      "7": "L-TIME",
+      "8": "U-TIME",
+      "9": "B-date",
+      "10": "I-date",
+      "11": "L-date",
+      "12": "U-date",
+      "13": "B-name",
+      "14": "I-name",
+      "15": "L-name",
+      "16": "U-name",
+      "17": "B-room",
+      "18": "I-room",
+      "19": "L-room",
+      "20": "U-room",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-PERSON": 1,
+      "I-PERSON": 2,
+      "L-PERSON": 3,
+      "U-PERSON": 4,
+      "B-TIME": 5,
+      "I-TIME": 6,
+      "L-TIME": 7,
+      "U-TIME": 8,
+      "B-date": 9,
+      "I-date": 10,
+      "L-date": 11,
+      "U-date": 12,
+      "B-name": 13,
+      "I-name": 14,
+      "L-name": 15,
+      "U-name": 16,
+      "B-room": 17,
+      "I-room": 18,
+      "L-room": 19,
+      "U-room": 20,
+      "O": 0
+    },
+    "num_tags": 21
+  },
+  {
+    "tag_name": "role",
+    "ids_to_tags": {
+      "1": "B-end",
+      "2": "I-end",
+      "3": "L-end",
+      "4": "U-end",
+      "5": "B-start",
+      "6": "I-start",
+      "7": "L-start",
+      "8": "U-start",
+      "0": "O"
+    },
+    "tags_to_ids": {
+      "B-end": 1,
+      "I-end": 2,
+      "L-end": 3,
+      "U-end": 4,
+      "B-start": 5,
+      "I-start": 6,
+      "L-start": 7,
+      "U-start": 8,
+      "O": 0
+    },
+    "num_tags": 9
+  }
+]

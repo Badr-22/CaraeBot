@@ -1,0 +1,44 @@
+version: "3.0"
+
+stories:
+
+- story: reservation deny
+  steps:
+  - intent: reservation
+  - action: reservation_form
+  - active_loop: reservation_form
+  - active_loop: null
+  - action: utter_confirm
+  - intent: affirm
+  - action: action_save
+
+
+- story: reservation deny affirm
+  steps:
+  - intent: reservation
+  - action: reservation_form
+  - active_loop: reservation_form
+  - active_loop: null
+  - action: utter_confirm
+  - intent: deny
+  - action: action_reset
+
+rules:
+
+- rule: Say `hello` whenever the user sends a message with intent `greet`
+  steps:
+  - intent: greet
+  - action: utter_greet
+
+- rule: Say `Goodbye` whenever the user sends a message with intent `bye`
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Say `Welcome` whenever the user sends a message with intent `thanks`
+  steps:
+  - intent: thanks
+  - action: utter_welcome
+
+
+
